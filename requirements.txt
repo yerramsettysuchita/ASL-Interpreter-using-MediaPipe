@@ -1,0 +1,8 @@
+Flask
+flask-cors
+opencv-python
+mediapipe
+numpy
+scikit-learn
+pickle5
+pillow
