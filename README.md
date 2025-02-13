@@ -25,7 +25,9 @@
  ┣ 📄 inference_classifier.py
  ┣ 📄 create_dataset.py
  ┣ 📄 collect_imgs.py
+ ┣ 📄requirements.txt 
  ┣ 📄 README.md
+
 ```
 
 ## 📖 Project Overview
