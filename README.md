@@ -15,8 +15,7 @@
 📦 Sign-Language-Recognition
  ┣ 📂 data
  ┃ ┗ 📄 data.pickle
- ┣ 📂 models
- ┃ ┗ 📄 model.p
+ ┣ 📄 model.p
  ┣ 📂 static
  ┣ 📂 templates
  ┃ ┣ 📄 index.html
@@ -26,7 +25,6 @@
  ┣ 📄 inference_classifier.py
  ┣ 📄 create_dataset.py
  ┣ 📄 collect_imgs.py
- ┣ 📄 requirements.txt
  ┣ 📄 README.md
 ```
 
