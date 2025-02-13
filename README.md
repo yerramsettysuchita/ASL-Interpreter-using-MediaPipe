@@ -14,7 +14,7 @@
 ```
 📦 Sign-Language-Recognition
  ┣ 📂 data
- ┃ ┗ 📄 data.pickle
+ ┣ 📄 data.pickle
  ┣ 📄 model.p
  ┣ 📂 static
  ┣ 📂 templates
