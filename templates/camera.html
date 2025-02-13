@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Live Sign Detection</h1>
+        <img id="videoFeed" src="{{ url_for('video_feed') }}" alt="Live Video Feed">
+        <br>
+        <button onclick="goBack()">Back to Home</button>
+    </div>
+
+    <script>
+        function goBack() {
+            window.location.href = "/";
+        }
+    </script>
+</body>
+</html>

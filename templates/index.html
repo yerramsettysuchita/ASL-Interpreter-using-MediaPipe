@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Language Recognition</h1>
+        <p>Recognize sign language gestures in real-time.</p>
+        <button onclick="startRecognition()">Start Recognition</button>
+    </div>
+
+    <script>
+        function startRecognition() {
+            window.location.href = "/camera";
+        }
+    </script>
+</body>
+</html>
